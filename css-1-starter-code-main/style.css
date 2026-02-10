@@ -11,3 +11,64 @@ h1 {
   color: whitesmoke;
 }
 */
+
+body {
+  background-color: #f7ecda;
+  text-align: center;
+  color: #2b1e08;
+}
+
+body > header {
+  background-color: #2b1e08;
+  border-radius: 12px; /*round the borders*/
+  padding: 5px 6px; /*space from the navigator top/bottom and left/right*/
+  width: 30%; /* controls the width */
+  margin: 10px auto; /* centers it */
+}
+
+body > header a {
+  color: #f7ecda;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+main > header p {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+#introduction {
+  padding: 50px 300px;
+  line-height: 2;
+}
+
+#cultures header {
+  padding: 20px 500px;
+}
+
+#cultures h3 {
+    text-decoration: underline overline  ;
+}
+
+#cultures div p {
+  padding: 20px 500px;
+}
